@@ -1,0 +1,27 @@
+/* Language */
+
+#language {
+    position: relative;
+    margin: .75em 1.5em 1.5em 1.5em;
+    min-height: 48px;
+    cursor: default;
+}
+
+    .button-language {
+        font-weight: 300;
+        color: #fff;
+        font-size: .8em;
+        line-height: .8em;
+        padding: 0.75em;
+    }
+
+    .button-language.selected {
+        background-color: #c5ebea;
+    }
+
+    .button-language.selected:hover {
+        background-color: #c5ebea;
+    }
+    .button-language.selected:active {
+        background-color: #c5ebea;
+    }
