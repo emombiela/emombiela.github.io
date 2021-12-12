@@ -25,3 +25,40 @@
     .button-language.selected:active {
         background-color: #c5ebea;
     }
+
+/* Box */
+
+.article-title {
+    border: 1px;
+    border-style: solid;
+    border-start-start-radius: 0.35em;
+    border-start-end-radius: 0.35em;
+    border-color: #8ebebc;
+    background-color: #8ebebc;
+    padding: .5em;
+    font-size: 1.25em;
+    text-align: start;
+    color: #fff !important;
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+	-moz-transition: background-color 0.35s ease-in-out;
+	-webkit-transition: background-color 0.35s ease-in-out;
+	-ms-transition: background-color 0.35s ease-in-out;
+	transition: background-color 0.35s ease-in-out;
+}
+
+.article-content {
+    margin-top: -1px;
+    border: 1px;
+    border-style: solid;
+    border-end-start-radius: 0.35em;
+    border-end-end-radius: 0.35em;
+    border-color: #8ebebc;
+    background-color: #f0fffe;
+    padding: .5em;
+    text-align: start;
+    font-size: .8em;
+    box-shadow: 0 0.1em 0.25em 0 rgba(0, 0, 0, 0.05);
+}
