@@ -26,7 +26,27 @@
         background-color: #c5ebea;
     }
 
-/* Box */
+/* Container */
+
+.container-explanation {
+    width: 80%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 1.25em;
+    text-align: start;
+    line-height: 1.25em;
+}
+
+    .container-explanation p {
+        margin-bottom: 0.8em;
+    }
+
+.deployment h3 {
+    text-align: start;
+    margin-bottom: 0.5em;
+}
+
+/* Article */
 
 .article-title {
     border: 1px;
