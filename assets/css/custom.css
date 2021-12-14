@@ -41,6 +41,10 @@
         margin-bottom: 0.8em;
     }
 
+.deployment {
+    margin-top: 1em;
+}
+
 .deployment h3 {
     text-align: start;
     margin-bottom: 0.5em;
