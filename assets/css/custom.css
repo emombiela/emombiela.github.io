@@ -1,3 +1,12 @@
+/* Elements */
+
+hr {
+    border: 0.1em;
+    border-top: solid 1px rgb(170, 169, 169);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
 /* Language */
 
 #language {
@@ -72,3 +81,91 @@
 #main > section.five {
     background-color: #e0e4e3;
 }
+
+/* Projects development */
+
+.project {
+    text-align: start;
+    margin: 1em 0.5em 0 0.5em;
+    padding: 0.25em 0.5em;
+    border-radius: 0.35em;
+}
+
+    .project-done {
+        background-color: green;
+        color: white;
+    }
+
+    .project-in-progress {
+        background-color: orange;
+        color: white;
+    }
+
+    .project-labels {
+        text-align: start;
+        margin: 0.1em 0.5em 1em 0.5em;
+    }
+
+        .project-label {
+            padding: 0.1em 0.5em;
+            border-radius: 0.35em;
+        }
+
+            .java-label {
+                background-color: rgb(104, 8, 8);
+                color: white
+            }
+
+            .microsoft-label {
+                background-color: rgb(0, 110, 255);
+                color: white
+            }
+
+            .php-label {
+                background-color: rgb(114, 68, 223);
+                color: white
+            }
+            
+            .laravel-label {
+                background-color: rgb(255, 37, 37);
+                color: white
+            }
+
+            .python-label {
+                background-color: rgb(45, 76, 117);
+                color: white
+            }
+            
+            .javascript-label {
+                background-color: rgb(255, 7, 81);
+                color: white
+            }
+
+    .legend {
+        text-align: start;
+        margin: 0em 0.5em 0 0.5em;
+    }
+
+        .legend-project-done {
+            border-style: solid;
+            border-width: 0.2em;
+            border-color: white;
+            background-color: green;
+            width: 1em;
+            height: 1em;
+            float: left;
+            margin-top: 0.35em;
+            margin-right: 0.5em;
+        }
+
+        .legend-project-in-progress {
+            border-style: solid;
+            border-width: 0.2em;
+            border-color: white;
+            background-color: orange;
+            width: 1em;
+            height: 1em;
+            float: left;
+            margin-top: 0.35em;
+            margin-right: 0.5em;
+        }
